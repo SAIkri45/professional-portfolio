@@ -59,7 +59,9 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    white-space: nowrap;
+    letter-spacing: 0.03em;
 }
 
 .nav-menu {
@@ -115,8 +117,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: stretch;
+    text-align: left;
     padding: 100px 20px 50px;
     background: linear-gradient(135deg, var(--dark-bg) 0%, var(--light-bg) 100%);
     position: relative;
@@ -152,12 +154,16 @@ body {
 
 .hero-content {
     z-index: 1;
+    width: min(100%, 1100px);
+    margin: 0 auto;
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: clamp(2.4rem, 7vw, 4.4rem);
     font-weight: 800;
     margin-bottom: 1rem;
+    line-height: 1.05;
+    letter-spacing: 0.03em;
     background: var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -166,14 +172,15 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: clamp(1.05rem, 2.4vw, 1.5rem);
     color: var(--text-secondary);
     margin-bottom: 1rem;
+    max-width: 760px;
     animation: fadeInUp 1s ease-out 0.2s backwards;
 }
 
 .hero-location {
-    font-size: 1.1rem;
+    font-size: clamp(0.98rem, 1.8vw, 1.1rem);
     color: var(--accent);
     margin-bottom: 2rem;
     animation: fadeInUp 1s ease-out 0.3s backwards;
@@ -187,8 +194,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 2rem;
+    max-width: 820px;
     animation: fadeInUp 1s ease-out 0.4s backwards;
 }
 
@@ -203,7 +211,7 @@ body {
 .hero-buttons {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
     animation: fadeInUp 1s ease-out 0.6s backwards;
 }
 
@@ -663,6 +671,15 @@ section {
         left: 0;
     }
 
+    .hero {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
     .hero-title {
         font-size: 2.5rem;
     }
@@ -676,6 +693,10 @@ section {
         width: 100%;
         max-width: 300px;
         margin: 0 auto;
+    }
+
+    .hero-tags {
+        justify-content: center;
     }
 
     .projects-grid {
