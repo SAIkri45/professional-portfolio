@@ -59,6 +59,8 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: nowrap;
+    margin-right: auto;
     gap: 0.65rem;
 }
 
