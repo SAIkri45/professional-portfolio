@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Full Stack Developer</h1>
+            <p class="hero-subtitle">Specializing in IoT, Healthcare, and Enterprise Solutions</p>
+            <div class="hero-tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">IoT</span>
+                <span class="tag">Healthcare Tech</span>
+                <span class="tag">API Development</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    Experienced Full Stack Developer with expertise in building scalable IoT solutions,
+                    healthcare applications, and enterprise systems. Proficient in modern web technologies
+                    and API development with a strong focus on real-time systems and data processing.
+                </p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>9+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>4+</h3>
+                        <p>Industries Served</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Technologies Mastered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="iot">IoT</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="management">Management</button>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>TypeScript</span>
+                        <span>Hono</span>
+                        <span>Express.js</span>
+                        <span>FastAPI (Python)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>Drizzle ORM</span>
+                        <span>SQLAlchemy</span>
+                        <span>LibSQL/Turso</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> IoT & Real-time</h3>
+                    <div class="skill-tags">
+                        <span>MQTT</span>
+                        <span>Socket.io</span>
+                        <span>RabbitMQ</span>
+                        <span>WebSockets</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>AWS S3</span>
+                        <span>Docker</span>
+                        <span>Neon</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI/ML</h3>
+                    <div class="skill-tags">
+                        <span>OpenAI</span>
+                        <span>Google Generative AI</span>
+                        <span>Claude</span>
+                        <span>MCP Integration</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>JWT Auth</span>
+                        <span>HL7 Protocol</span>
+                        <span>Stripe</span>
+                        <span>Twilio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Interested in working together? Let's connect!</p>
+                <div class="contact-links">
+                    <a href="mailto:krishna14054@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email Me</span>
+                    </a>
+                    <a href="https://github.com/SAIkri45" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sai-krishna-sagadaboina-64961b225/" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Professional Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
