@@ -8,93 +8,93 @@ const projects = [
         industry: "HR Tech & AI"
     },
     {
-        title: "Interview Video Processing Service",
+        title: "Figlinks Video Processor",
         category: "hrtech",
-        description: "Video processing API for extracting interview insights, generating AI-powered candidate scores, and creating comprehensive PDF reports with proctoring analytics.",
+        description: "Video processing service for extracting interview insights, generating AI-powered candidate scores, and creating comprehensive PDF reports with proctoring analytics.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Google Gemini", "Deepgram", "FFmpeg", "Puppeteer", "AWS S3"],
         industry: "HR Tech & Video Processing"
     },
     {
-        title: "Demeter Cloud - AgriTech Platform",
+        title: "Demeter Cloud",
         category: "iot",
         description: "Agricultural IoT platform for farm and robot fleet management with automated mission planning, real-time MQTT communication, and WebRTC video streaming.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Socket.io", "WebRTC", "AWS S3"],
         industry: "Agriculture Technology"
     },
     {
-        title: "Sedyam - Smart Agriculture API",
+        title: "Sedyam",
         category: "iot",
         description: "Smart agriculture platform for field operations, sprayer/drone fleet management, and order processing with Firebase integration and real-time IoT communication.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Socket.io", "Firebase", "AWS S3"],
         industry: "Smart Agriculture"
     },
     {
-        title: "Single Motor Starter API",
+        title: "iDhara",
         category: "iot",
-        description: "IoT-based single motor starter control system for agricultural automation with MQTT real-time communication, motor scheduling, and field management.",
+        description: "IoT motor starter control system for agricultural automation with MQTT real-time communication, motor scheduling, and field management.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Firebase", "BullMQ"],
         industry: "IoT & Agriculture"
     },
     {
-        title: "IoT Soft Starter with AI/ML",
+        title: "IoT Soft Starter Platform",
         category: "iot",
         description: "Advanced IoT soft starter motor controller with AI/ML capabilities. Integrates Google AI, OpenAI, and Claude for intelligent motor control and analytics.",
         technologies: ["Hono", "TypeScript", "MQTT", "RabbitMQ", "OpenAI", "Google AI", "AWS S3", "Socket.io"],
         industry: "IoT & Machine Learning"
     },
     {
-        title: "APFC Motor Controller API",
+        title: "APFC Power Manager",
         category: "iot",
-        description: "Automatic Power Factor Correction (APFC) and motor control API for agricultural farms with real-time MQTT communication and energy management.",
+        description: "Automatic Power Factor Correction (APFC) and motor control platform for agricultural farms with real-time MQTT communication and energy management.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "MQTT", "AWS S3", "Drizzle ORM", "Zod"],
         industry: "Agriculture & Energy"
     },
     {
-        title: "Telematics Fleet Management API",
+        title: "Fleet Telematics",
         category: "iot",
-        description: "Vehicle and device telematics API for fleet management and telemetry data collection built with FastAPI and async Python.",
+        description: "Vehicle and device telematics platform for fleet management and telemetry data collection built with FastAPI and async Python.",
         technologies: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "JWT", "Alembic", "Docker", "Sentry"],
         industry: "Telematics & Fleet"
     },
     {
-        title: "Labsquire LIS API",
+        title: "Labsquire LIS",
         category: "healthcare",
-        description: "Comprehensive Laboratory Information System (LIS) for lab management, test processing, HL7 integration, and patient data management.",
+        description: "Comprehensive Laboratory Information System for lab management, test processing, HL7 integration, and patient data management.",
         technologies: ["Express.js", "MongoDB", "PostgreSQL", "HL7", "Twilio", "Stripe", "AWS", "Puppeteer"],
         industry: "Healthcare & Laboratory"
     },
     {
-        title: "EMR Labsquire Integration",
+        title: "Labsquire EMR Bridge",
         category: "healthcare",
-        description: "Electronic Medical Records (EMR) integration API that bridges lab systems with external EHR platforms using HL7 messaging protocol.",
+        description: "Electronic Medical Records integration platform that bridges lab systems with external EHR platforms using HL7 messaging protocol.",
         technologies: ["Express.js", "MongoDB", "HL7 Parser", "SFTP", "JWT", "AWS SDK"],
         industry: "Healthcare & EMR"
     },
     {
-        title: "LIS Task Manager",
+        title: "Labsquire Task Manager",
         category: "management",
         description: "Task and project management system for laboratory teams with real-time updates, file management, and collaborative features.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Socket.io", "AWS S3", "Drizzle ORM", "Pino"],
         industry: "Project Management"
     },
     {
-        title: "Work Planner API",
+        title: "Work Planner",
         category: "management",
-        description: "Task scheduling and work planning API for project and team management with advanced scheduling capabilities.",
+        description: "Task scheduling and work planning platform for project and team management with advanced scheduling capabilities.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "AWS S3", "Drizzle ORM", "Valibot", "EJS"],
         industry: "Project Management"
     },
     {
-        title: "Ashikagroup Business Management API",
+        title: "Ashikagroup Business Suite",
         category: "management",
         description: "B2B business management and ERP system with asset management, user onboarding workflows, and role-based access control.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Argon2", "Valibot", "AWS S3"],
         industry: "Business Management"
     },
     {
-        title: "Custom Backend Application",
+        title: "Backend Starter Template",
         category: "management",
-        description: "Custom Node.js backend with Hono framework, PostgreSQL database, and Drizzle ORM for type-safe database operations.",
+        description: "Modern Node.js backend template with Hono framework, PostgreSQL database, and Drizzle ORM for type-safe database operations.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Argon2", "Zod"],
         industry: "Backend Development"
     }
