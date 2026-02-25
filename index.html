@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio - Full Stack Developer</title>
+    <title>SAI KRISHNA - Backend Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -12,13 +12,14 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>Portfolio</h2>
+                <h2>SAI KRISHNA</h2>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -32,14 +33,16 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Full Stack Developer</h1>
-            <p class="hero-subtitle">Specializing in IoT, Healthcare, and Enterprise Solutions</p>
+            <h1 class="hero-title">SAI KRISHNA</h1>
+            <p class="hero-subtitle">Backend Developer | API Architect | IoT & Healthcare Solutions</p>
+            <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Guntur, Andhra Pradesh, India</p>
             <div class="hero-tags">
                 <span class="tag">TypeScript</span>
                 <span class="tag">Node.js</span>
-                <span class="tag">IoT</span>
-                <span class="tag">Healthcare Tech</span>
-                <span class="tag">API Development</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">MQTT & IoT</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">Python</span>
             </div>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -57,21 +60,22 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <p>
-                    Experienced Full Stack Developer with expertise in building scalable IoT solutions,
-                    healthcare applications, and enterprise systems. Proficient in modern web technologies
-                    and API development with a strong focus on real-time systems and data processing.
+                    Backend Developer specializing in building scalable, high-performance APIs and microservices.
+                    Expertise in IoT systems, healthcare applications, HR tech platforms, and agricultural technology.
+                    Proficient in TypeScript/Node.js ecosystem with hands-on experience in real-time communication (MQTT, WebSockets),
+                    AI/ML integration, and cloud infrastructure. Strong focus on clean architecture, type safety, and production-ready solutions.
                 </p>
                 <div class="stats">
                     <div class="stat-item">
-                        <h3>9+</h3>
-                        <p>Projects Completed</p>
+                        <h3>14+</h3>
+                        <p>Backend Projects</p>
                     </div>
                     <div class="stat-item">
-                        <h3>4+</h3>
+                        <h3>6+</h3>
                         <p>Industries Served</p>
                     </div>
                     <div class="stat-item">
-                        <h3>15+</h3>
+                        <h3>20+</h3>
                         <p>Technologies Mastered</p>
                     </div>
                 </div>
@@ -85,7 +89,8 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="iot">IoT</button>
+                <button class="filter-btn" data-filter="hrtech">HR Tech</button>
+                <button class="filter-btn" data-filter="iot">IoT & AgriTech</button>
                 <button class="filter-btn" data-filter="healthcare">Healthcare</button>
                 <button class="filter-btn" data-filter="management">Management</button>
             </div>
@@ -101,60 +106,97 @@
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Backend</h3>
+                    <h3><i class="fas fa-code"></i> Languages</h3>
                     <div class="skill-tags">
-                        <span>Node.js</span>
                         <span>TypeScript</span>
-                        <span>Hono</span>
-                        <span>Express.js</span>
-                        <span>FastAPI (Python)</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <h3><i class="fas fa-server"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Hono.js</span>
+                        <span>Express.js</span>
+                        <span>FastAPI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases & ORMs</h3>
                     <div class="skill-tags">
                         <span>PostgreSQL</span>
                         <span>MongoDB</span>
+                        <span>LibSQL</span>
                         <span>Drizzle ORM</span>
-                        <span>SQLAlchemy</span>
-                        <span>LibSQL/Turso</span>
+                        <span>Mongoose</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-network-wired"></i> IoT & Real-time</h3>
+                    <h3><i class="fas fa-network-wired"></i> Real-Time & IoT</h3>
                     <div class="skill-tags">
                         <span>MQTT</span>
                         <span>Socket.io</span>
+                        <span>WebSocket</span>
+                        <span>WebRTC</span>
                         <span>RabbitMQ</span>
-                        <span>WebSockets</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <h3><i class="fas fa-cloud"></i> Cloud & Infrastructure</h3>
                     <div class="skill-tags">
-                        <span>AWS S3</span>
+                        <span>AWS (S3, SDK)</span>
+                        <span>Firebase Admin</span>
                         <span>Docker</span>
-                        <span>Neon</span>
-                        <span>Firebase</span>
+                        <span>BullMQ</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-robot"></i> AI/ML</h3>
+                    <h3><i class="fas fa-shield-alt"></i> Auth & Security</h3>
                     <div class="skill-tags">
-                        <span>OpenAI</span>
-                        <span>Google Generative AI</span>
-                        <span>Claude</span>
-                        <span>MCP Integration</span>
+                        <span>JWT (HS512)</span>
+                        <span>Argon2</span>
+                        <span>Bcrypt</span>
+                        <span>RBAC</span>
+                        <span>Firebase Auth</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-check-circle"></i> Validation & Patterns</h3>
+                    <div class="skill-tags">
+                        <span>Zod</span>
+                        <span>Valibot</span>
+                        <span>Result/Either Pattern</span>
+                        <span>Factory Pattern</span>
+                        <span>Service Layer</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3><i class="fas fa-tools"></i> Tools & Others</h3>
                     <div class="skill-tags">
                         <span>Git</span>
-                        <span>JWT Auth</span>
-                        <span>HL7 Protocol</span>
-                        <span>Stripe</span>
-                        <span>Twilio</span>
+                        <span>Bruno</span>
+                        <span>Postman</span>
+                        <span>Drizzle Kit</span>
+                        <span>Pino Logging</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Kallam Haranadhareddy Institute of Technology</h3>
+                        <p class="education-location"><i class="fas fa-map-marker-alt"></i> Guntur, Andhra Pradesh, India</p>
+                        <p class="education-duration"><i class="fas fa-calendar-alt"></i> 2019 - 2022</p>
                     </div>
                 </div>
             </div>
@@ -170,7 +212,11 @@
                 <div class="contact-links">
                     <a href="mailto:krishna14054@gmail.com" class="contact-link">
                         <i class="fas fa-envelope"></i>
-                        <span>Email Me</span>
+                        <span>krishna14054@gmail.com</span>
+                    </a>
+                    <a href="tel:+919391532103" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9391532103</span>
                     </a>
                     <a href="https://github.com/SAIkri45" target="_blank" class="contact-link">
                         <i class="fab fa-github"></i>

@@ -1,6 +1,34 @@
 // Projects Data
 const projects = [
     {
+        title: "Figlinks - AI Interview Platform",
+        category: "hrtech",
+        description: "Automated candidate interview and assessment platform with AI-powered scoring, proctoring monitoring, and personality trait analysis using Big Five and DISC models.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google Gemini", "Deepgram", "AWS S3", "Upstash"],
+        industry: "HR Tech & AI"
+    },
+    {
+        title: "Interview Video Processing Service",
+        category: "hrtech",
+        description: "Video processing API for extracting interview insights, generating AI-powered candidate scores, and creating comprehensive PDF reports with proctoring analytics.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "Google Gemini", "Deepgram", "FFmpeg", "Puppeteer", "AWS S3"],
+        industry: "HR Tech & Video Processing"
+    },
+    {
+        title: "Demeter Cloud - AgriTech Platform",
+        category: "iot",
+        description: "Agricultural IoT platform for farm and robot fleet management with automated mission planning, real-time MQTT communication, and WebRTC video streaming.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Socket.io", "WebRTC", "AWS S3"],
+        industry: "Agriculture Technology"
+    },
+    {
+        title: "Sedyam - Smart Agriculture API",
+        category: "iot",
+        description: "Smart agriculture platform for field operations, sprayer/drone fleet management, and order processing with Firebase integration and real-time IoT communication.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Socket.io", "Firebase", "AWS S3"],
+        industry: "Smart Agriculture"
+    },
+    {
         title: "Single Motor Starter API",
         category: "iot",
         description: "IoT-based single motor starter control system for agricultural automation with MQTT real-time communication, motor scheduling, and field management.",
@@ -8,11 +36,25 @@ const projects = [
         industry: "IoT & Agriculture"
     },
     {
-        title: "IoT Soft Starter",
+        title: "IoT Soft Starter with AI/ML",
         category: "iot",
         description: "Advanced IoT soft starter motor controller with AI/ML capabilities. Integrates Google AI, OpenAI, and Claude for intelligent motor control and analytics.",
         technologies: ["Hono", "TypeScript", "MQTT", "RabbitMQ", "OpenAI", "Google AI", "AWS S3", "Socket.io"],
         industry: "IoT & Machine Learning"
+    },
+    {
+        title: "APFC Motor Controller API",
+        category: "iot",
+        description: "Automatic Power Factor Correction (APFC) and motor control API for agricultural farms with real-time MQTT communication and energy management.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "MQTT", "AWS S3", "Drizzle ORM", "Zod"],
+        industry: "Agriculture & Energy"
+    },
+    {
+        title: "Telematics Fleet Management API",
+        category: "iot",
+        description: "Vehicle and device telematics API for fleet management and telemetry data collection built with FastAPI and async Python.",
+        technologies: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "JWT", "Alembic", "Docker", "Sentry"],
+        industry: "Telematics & Fleet"
     },
     {
         title: "Labsquire LIS API",
@@ -29,25 +71,11 @@ const projects = [
         industry: "Healthcare & EMR"
     },
     {
-        title: "APFC Motor Controller",
-        category: "iot",
-        description: "Automatic Power Factor Correction (APFC) and motor control API for agricultural farms with real-time MQTT communication and energy management.",
-        technologies: ["Hono", "TypeScript", "PostgreSQL", "MQTT", "AWS S3", "Drizzle ORM", "Zod"],
-        industry: "Agriculture & Energy"
-    },
-    {
-        title: "Telematics API",
-        category: "iot",
-        description: "Vehicle and device telematics API for fleet management and telemetry data collection built with FastAPI and async Python.",
-        technologies: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "JWT", "Alembic", "Docker", "Sentry"],
-        industry: "Telematics & Fleet Management"
-    },
-    {
         title: "LIS Task Manager",
         category: "management",
         description: "Task and project management system for laboratory teams with real-time updates, file management, and collaborative features.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Socket.io", "AWS S3", "Drizzle ORM", "Pino"],
-        industry: "Healthcare & Project Management"
+        industry: "Project Management"
     },
     {
         title: "Work Planner API",
@@ -57,11 +85,18 @@ const projects = [
         industry: "Project Management"
     },
     {
-        title: "Custom Application",
+        title: "Ashikagroup Business Management API",
         category: "management",
-        description: "Custom Node.js application with Hono framework, PostgreSQL database, and Drizzle ORM for type-safe database operations.",
+        description: "B2B business management and ERP system with asset management, user onboarding workflows, and role-based access control.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Argon2", "Valibot", "AWS S3"],
+        industry: "Business Management"
+    },
+    {
+        title: "Custom Backend Application",
+        category: "management",
+        description: "Custom Node.js backend with Hono framework, PostgreSQL database, and Drizzle ORM for type-safe database operations.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Argon2", "Zod"],
-        industry: "Web Development"
+        industry: "Backend Development"
     }
 ];
 
