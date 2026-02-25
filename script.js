@@ -1,6 +1,20 @@
 // Projects Data
 const projects = [
     {
+        title: "IoT Soft Starter Platform",
+        category: "iot",
+        description: "Advanced IoT soft starter motor controller with AI/ML capabilities. Integrates Google AI, OpenAI, and Claude for intelligent motor control and analytics.",
+        technologies: ["Hono", "TypeScript", "MQTT", "RabbitMQ", "OpenAI", "Google AI", "AWS S3", "Socket.io"],
+        industry: "IoT & Machine Learning"
+    },
+    {
+        title: "iDhara",
+        category: "iot",
+        description: "IoT motor starter control system for agricultural automation with MQTT real-time communication, motor scheduling, and field management.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Firebase", "BullMQ"],
+        industry: "IoT & Agriculture"
+    },
+    {
         title: "Figlinks - AI Interview Platform",
         category: "hrtech",
         description: "Automated candidate interview and assessment platform with AI-powered scoring, proctoring monitoring, and personality trait analysis using Big Five and DISC models.",
@@ -27,20 +41,6 @@ const projects = [
         description: "Smart agriculture platform for field operations, sprayer/drone fleet management, and order processing with Firebase integration and real-time IoT communication.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Socket.io", "Firebase", "AWS S3"],
         industry: "Smart Agriculture"
-    },
-    {
-        title: "iDhara",
-        category: "iot",
-        description: "IoT motor starter control system for agricultural automation with MQTT real-time communication, motor scheduling, and field management.",
-        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "MQTT", "Firebase", "BullMQ"],
-        industry: "IoT & Agriculture"
-    },
-    {
-        title: "IoT Soft Starter Platform",
-        category: "iot",
-        description: "Advanced IoT soft starter motor controller with AI/ML capabilities. Integrates Google AI, OpenAI, and Claude for intelligent motor control and analytics.",
-        technologies: ["Hono", "TypeScript", "MQTT", "RabbitMQ", "OpenAI", "Google AI", "AWS S3", "Socket.io"],
-        industry: "IoT & Machine Learning"
     },
     {
         title: "APFC Power Manager",
