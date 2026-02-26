@@ -15,18 +15,11 @@ const projects = [
         industry: "IoT & Agriculture"
     },
     {
-        title: "Figlinks - AI Interview Platform",
+        title: "Figlinks - AI Interview Platform & Video Processor",
         category: "hrtech",
-        description: "Automated candidate interview and assessment platform with AI-powered scoring, proctoring monitoring, and personality trait analysis using Big Five and DISC models.",
-        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google Gemini", "Deepgram", "AWS S3", "Upstash"],
-        industry: "HR Tech & AI"
-    },
-    {
-        title: "Figlinks Video Processor",
-        category: "hrtech",
-        description: "Video processing service for extracting interview insights, generating AI-powered candidate scores, and creating comprehensive PDF reports with proctoring analytics.",
-        technologies: ["Hono", "TypeScript", "PostgreSQL", "Google Gemini", "Deepgram", "FFmpeg", "Puppeteer", "AWS S3"],
-        industry: "HR Tech & Video Processing"
+        description: "Unified hiring intelligence platform that combines AI-powered interview assessment, proctoring analytics, video processing, candidate scoring, and automated PDF reporting.",
+        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Google Gemini", "Deepgram", "FFmpeg", "Puppeteer", "AWS S3", "Upstash"],
+        industry: "HR Tech, AI & Video Intelligence"
     },
     {
         title: "Demeter Cloud",
@@ -50,13 +43,6 @@ const projects = [
         industry: "Agriculture & Energy"
     },
     {
-        title: "Fleet Telematics",
-        category: "iot",
-        description: "Vehicle and device telematics platform for fleet management and telemetry data collection built with FastAPI and async Python.",
-        technologies: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "JWT", "Alembic", "Docker", "Sentry"],
-        industry: "Telematics & Fleet"
-    },
-    {
         title: "Labsquire LIS",
         category: "healthcare",
         description: "Comprehensive Laboratory Information System for lab management, test processing, HL7 integration, and patient data management.",
@@ -76,27 +62,6 @@ const projects = [
         description: "Task and project management system for laboratory teams with real-time updates, file management, and collaborative features.",
         technologies: ["Hono", "TypeScript", "PostgreSQL", "Socket.io", "AWS S3", "Drizzle ORM", "Pino"],
         industry: "Project Management"
-    },
-    {
-        title: "Work Planner",
-        category: "management",
-        description: "Task scheduling and work planning platform for project and team management with advanced scheduling capabilities.",
-        technologies: ["Hono", "TypeScript", "PostgreSQL", "AWS S3", "Drizzle ORM", "Valibot", "EJS"],
-        industry: "Project Management"
-    },
-    {
-        title: "Ashikagroup Business Suite",
-        category: "management",
-        description: "B2B business management and ERP system with asset management, user onboarding workflows, and role-based access control.",
-        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Argon2", "Valibot", "AWS S3"],
-        industry: "Business Management"
-    },
-    {
-        title: "Backend Starter Template",
-        category: "management",
-        description: "Modern Node.js backend template with Hono framework, PostgreSQL database, and Drizzle ORM for type-safe database operations.",
-        technologies: ["Hono", "TypeScript", "PostgreSQL", "Drizzle ORM", "Argon2", "Zod"],
-        industry: "Backend Development"
     }
 ];
 

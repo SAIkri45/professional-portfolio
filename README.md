@@ -156,20 +156,22 @@ professional-portfolio/
 
 ## Your Projects Included
 
-### IoT & Agriculture Projects
-1. **Single Motor Starter API** - Agricultural motor control with MQTT
-2. **IoT Soft Starter** - Advanced motor controller with AI/ML
-3. **APFC Motor Controller** - Power factor correction for farms
-4. **Telematics API** - Fleet and vehicle management
+### HR Tech
+1. **Figlinks - AI Interview Platform & Video Processor** - Unified AI interviewing, proctoring analytics, and video intelligence pipeline
 
-### Healthcare Projects
-5. **Labsquire LIS API** - Laboratory Information System
-6. **EMR Labsquire Integration** - Electronic Medical Records bridge
-7. **LIS Task Manager** - Project management for lab teams
+### IoT & Agriculture
+2. **IoT Soft Starter Platform** - Advanced motor controller with AI/ML integrations
+3. **iDhara** - Agricultural motor automation and scheduling platform
+4. **Demeter Cloud** - Farm and robot fleet management with real-time communication
+5. **Sedyam** - Smart agriculture operations and order processing platform
+6. **APFC Power Manager** - Power factor correction and farm energy management
 
-### Management & Productivity
-8. **Work Planner API** - Task scheduling system
-9. **Custom Application** - Node.js with Hono framework
+### Healthcare
+7. **Labsquire LIS** - Laboratory Information System
+8. **Labsquire EMR Bridge** - EMR/EHR integration via HL7
+
+### Management
+9. **Labsquire Task Manager** - Team task and project management
 
 ## Technologies Showcased
 
