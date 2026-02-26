@@ -67,9 +67,11 @@ body {
 .nav-brand img {
     width: 42px;
     height: 42px;
+    aspect-ratio: 1 / 1;
+    display: block;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 20%;
+    object-position: center;
     border: 2px solid rgba(99, 102, 241, 0.5);
     box-shadow: 0 6px 16px rgba(99, 102, 241, 0.28);
     flex-shrink: 0;
@@ -339,9 +341,11 @@ section {
 .about-photo img {
     width: 300px;
     height: 300px;
+    aspect-ratio: 1 / 1;
+    display: block;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 20%;
+    object-position: center;
     border: 5px solid rgba(99, 102, 241, 0.3);
     box-shadow: 0 10px 40px rgba(99, 102, 241, 0.2);
     transition: all 0.3s;
